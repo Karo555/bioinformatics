@@ -1,3 +1,11 @@
+load_sequences_manual()
+
+
+load_sequences_fasta() 
+
+
+
+
 verify_sequence <- function(seq) {
   if (nchar(seq) == 0) {
     stop("Input sequence is empty.")
